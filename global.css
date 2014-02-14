@@ -1,0 +1,52 @@
+html *
+{
+   font-size: large;
+   /* The !important ensures that nothing can override what you've set in this style (unless it is also important). */
+   font-family: Arial;
+}
+
+h1 { text-align: center; font-family: Impact; font-size: 65px; }
+th, td { vertical-align: top; text-align: right; }
+/* #finaltable * { color: white; background-color: black; } */
+
+/* #finaltable table { border-collapse:collapse; } */
+/* #finaltable table, td { border:1px solid white; } */
+#finaltable:hover td { background-color:white; }
+tr:nth-child(odd) { background-color:#eee; }
+tr:nth-child(even) { background-color:#00FF66; }
+input { text-align: right; border: none; } /* Align input to the right */
+textarea { border: outset; border-color: white; }
+table { border: inset; border-color: white; }
+table.center { margin-left:auto; margin-right:auto; }
+#result { border-color: red; }
+tr.error { background-color: red; }
+body
+{
+ 	background-image: url(fondo-web-azul-claro-con-blanco-v2-1280x800.jpg)
+}
+#cuerpo{
+	margin: auto;	
+	width: 80%;
+	padding: 5px;
+	height:auto;
+	}
+#cuerpo-tabla{
+	margin: auto;
+	width: 80%;
+	height: 70%;
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 15px;
+	padding-top:20px; 
+	border: 5px solid black;
+	
+	}
+#texto1{
+	text-align: center;
+	padding: 5px;	
+	}
+	
+	.boton1{
+		margin: auto;
+		width: 120px;
+		}

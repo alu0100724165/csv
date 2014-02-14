@@ -5,7 +5,7 @@ html *
    font-family: Arial;
 }
 
-h1 { text-align: center; font-size: x-large; }
+h1 { text-align: center; font-family: Impact; font-size: 65px; }
 th, td { vertical-align: top; text-align: right; }
 /* #finaltable * { color: white; background-color: black; } */
 
@@ -22,21 +22,24 @@ table.center { margin-left:auto; margin-right:auto; }
 tr.error { background-color: red; }
 body
 {
- background-color:#b0c4de; /* blue */
+ background-color:#8FAFF3;
 }
 #cuerpo{
 	margin: auto;	
-	background-color: blue;
 	width: 80%;
 	padding: 5px;
-	height: auto;
+	height:auto;
 	}
 #cuerpo-tabla{
 	margin: auto;
 	width: 80%;
-	background-color: red;
+	height: 70%;
+	background-color: white;
 	padding: 5px;
-	margin-bottom: 5px;	
+	margin-bottom: 15px;
+	padding-top:20px; 
+	border: 5px solid black;
+	
 	}
 #texto1{
 	text-align: center;

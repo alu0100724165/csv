@@ -16,9 +16,7 @@ function calculate() {
   var commonLength = NaN;
   var r = [];
   // Template using underscore
-  var row = "<% _.each(items, function(name) { %>" +
-            " <td><%= name %></td>" +
-            " <% }); %>";
+  var row = underscoreTemplate.innerHTML;
 
   if (window.localStorage) localStorage.original = temp;
   

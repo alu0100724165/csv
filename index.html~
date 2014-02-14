@@ -30,7 +30,7 @@
 		    	  </tr>
 		   	 </table>
 		   	 <div class="boton1">
-		    			<button type="button" style="cursor: pointer;margin-top: 5px; width: 120px;">Obtener tabla</button><br>
+		    			<button type="button" style="cursor: pointer;width: 120px;">Obtener tabla</button><br>
 		    			<span class="output" id="finaltable"></span>
 				</div>	    	
 	    	</div>

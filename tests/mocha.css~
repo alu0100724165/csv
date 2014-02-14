@@ -137,10 +137,10 @@ body {
 }
 
 /**
-* (1): approximate for browsers not supporting calc
-* (2): 42 = 2*15 + 2*10 + 2*1 (padding + margin + border)
-* ^^ seriously
-*/
+ * (1): approximate for browsers not supporting calc
+ * (2): 42 = 2*15 + 2*10 + 2*1 (padding + margin + border)
+ *      ^^ seriously
+ */
 #mocha .test pre {
   display: block;
   float: left;

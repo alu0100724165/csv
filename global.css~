@@ -24,3 +24,26 @@ body
 {
  background-color:#b0c4de; /* blue */
 }
+#cuerpo{
+	margin: auto;	
+	background-color: blue;
+	width: 80%;
+	padding: 5px;
+	}
+#cuerpo-tabla{
+	margin: auto;
+	width: 80%;
+	background-color: red;
+	padding: 5px;	
+	}
+#texto1{
+	text-align: center;
+	padding: 5px;	
+	}
+	
+	.boton1{
+		margin: auto;
+		text-align: center;
+		font-family: verdana;
+		margin-top: 5px;		
+		}

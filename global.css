@@ -29,12 +29,14 @@ body
 	background-color: blue;
 	width: 80%;
 	padding: 5px;
+	height: auto;
 	}
 #cuerpo-tabla{
 	margin: auto;
 	width: 80%;
 	background-color: red;
-	padding: 5px;	
+	padding: 5px;
+	margin-bottom: 15px;	
 	}
 #texto1{
 	text-align: center;
@@ -43,7 +45,5 @@ body
 	
 	.boton1{
 		margin: auto;
-		text-align: center;
-		font-family: verdana;
-		margin-top: 5px;		
+		width: 120px;
 		}
